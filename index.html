@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ANURAG | PORTFOLIO</title>
+    <link rel="stylesheet" href="css/main.css">
+    <!-- for aos  -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- corousel slider -->
+    <link rel="stylesheet" href="css/jquery.flipster.min.css">
+</head>
+
+<body>
+
+    <nav id="navbar">
+
+        <div id="display">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <a href="#particles-js" onclick="display()"><img src="images/logo.png" alt="" id="logo"></a>
+        </div>
+
+        <a href="#about" class="nav" onclick="display()">ABOUT</a>
+        <a href="#my_skills" class="nav" onclick="display()">MY SKILLS</a>
+        <a href="#my_work" class="nav" onclick="display()">MY WORK</a>
+        <a href="#contact" class="nav" onclick="display()">CONTACT</a>
+        <div class="social">
+            <a href="https://github.com/dev-anuragS" target="_blank"><img src="images/github.png" alt="" class="social" id="github"></a>
+            <a href="https://www.linkedin.com/in/anurag-srivastava-7b380a213/" target="_blank"><img src="images/linked-in.png" alt="" class="social" id="linkedin"></a>
+        </div>
+    </nav>
+    <div id="particles-js">
+        <div id="hamburger">
+            <span id="hb1"></span>
+            <span id="hb2"></span>
+            <span id="hb3"></span>
+        </div>
+        <div id="home_container">
+            <p>Hi, I'm <span id="anurag">Anurag</span>.<br>I'm a web developer.</p>
+            <button id="contactbtn" onclick="window.location.href='#contact'">Contact Me!</button>
+        </div>
+        <div id="leftpointer" class="pointer"><span>S</span>croll <span>D</span>own <span>⇉</span></div>
+        <div id="rightpointer" class="pointer"><span>S</span>croll <span>D</span>own <span>⇉</span></div>
+    </div>
+
+    <div id="about" data-aos="fade-up">
+
+        <div id="aboutcontent">
+            <h1>About Me</h1>
+            <p>I’m a Web Developer located in India. I have a passion for animations and creating dynamic user
+                experiences.
+                <br>
+                Looking towards working on ambitious projects with positive people.
+                <br>
+                <span>Let’s create something special.</span>
+            </p>
+        </div>
+
+        <div id="cube">
+            <div class="cube_face" id="cube_face_front">HTML5</div>
+            <div class="cube_face" id="cube_face_back">Express.JS</div>
+            <div class="cube_face" id="cube_face_left">CSS3</div>
+            <div class="cube_face" id="cube_face_right">JS</div>
+            <div class="cube_face" id="cube_face_top">React.JS</div>
+            <div class="cube_face" id="cube_face_bottom">jQuery</div>
+        </div>
+
+        <div id="leftpointer" class="pointer"><span>S</span>croll <span>D</span>own <span>⇉</span></div>
+        <div id="rightpointer" class="pointer"><span>S</span>croll <span>D</span>own <span>⇉</span></div>
+
+    </div>
+
+    <div id="my_skills" data-aos="fade-up">
+
+        <div id="skill_container">
+            <h1>Skills</h1>
+            <p>I started <span>web development</span> nearly a year ago, I’ve done projects <span>individually</span>
+                and have also <span>collaborated</span> with talented people to create web products for both personal
+                and consumer use.
+                <br>
+                I have <span>full-stack developer</span> experience with popular open-source CMS like
+                <span>WordPress</span>.
+                <br>
+                Visit my <a href="https://www.linkedin.com/in/anurag-srivastava-7b380a213/" target="_blank">LinkedIn</a> profile for more details or just <a href="#contact">contact me</a>.
+            </p>
+        </div>
+
+        <div id="progress">
+            <h3>Front-End</h3>
+            <span class="progressbar"><span id="frontendbar"></span></span>
+            <h3>Back-End</h3>
+            <span class="progressbar"><span id="backendbar"></span></span>
+            <h3>ReactJS</h3>
+            <span class="progressbar"><span id="reactjsbar"></span></span>
+        </div>
+
+        <div id="leftpointer" class="pointer"><span>S</span>croll <span>D</span>own <span>⇉</span></div>
+        <div id="rightpointer" class="pointer"><span>S</span>croll <span>D</span>own <span>⇉</span></div>
+
+
+
+    </div>
+
+    <div id="my_work" data-aos="fade-up">
+
+        <div id="my_work_text">
+            <h1>My Work</h1>
+            <p>A gallery of my most <span>recent</span> projects. I've made some of them <span>individually</span> while
+                others were made <span>together</span> with some amazing people.</p>
+        </div>
+
+        <div id="corouselContainer">
+            <div class="carousel">
+                <ul>
+                    <li><img src="images/editor.png" alt=""></li>
+                    <li><img src="images/weather.png" alt=""></li>
+                    <li><img src="images/dance.png" alt=""></li>
+                    <li><img src="images/spaceview.png" alt=""></li>
+                    <li><img src="images/notes.png" alt=""></li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="leftpointer" class="pointer"><span>S</span>croll <span>D</span>own <span>⇉</span></div>
+        <div id="rightpointer" class="pointer"><span>S</span>croll <span>D</span>own <span>⇉</span></div>
+
+    </div>
+
+    <div id="contact" data-aos="fade-up">
+
+        <div id="contact_text">
+            <h1>Contact</h1>
+            <p>I’m interested in <span>full-time</span> as well as <span>freelance</span> opportunities. However, if you
+                have other request or question, feel free to <span>use the form</span>.</p>
+        </div>
+
+        <div id="form_container">
+            <form action="https://docs.google.com/forms/d/e/1FAIpQLScfyxdBgT2hF0OMe40KPjbSIqaSgHApg-H-VFVfNlMwVH6dZg/formResponse?" target="hidden_iframe" onsubmit="submitted=true;" id="gform">
+                <input type="text" name="entry.1063128569" id="entry.1063128569" placeholder=" First Name">
+                <input type="text" name="entry.2088133340" id="entry.2088133340" placeholder=" Last Name">
+                <input type="email" name="entry.1712477561" id="entry.1712477561" placeholder=" E-Mail">
+                <textarea name="entry.1645012002" id="entry.1645012002" cols="30" rows="10" placeholder=" Enter Your Message!"></textarea>
+                <button type="submit">Submit</button>
+            </form>
+            <div id="submitform"><p>Your message has been delievered, <br><span>I will get back to you shortly</span>.</p></div>
+        </div>
+
+    </div>
+
+    <script src="js/main.js"></script>
+
+    <!-- for particle  -->
+    <script src="js/particles.js"></script>
+    <script src="js/app.js"></script>
+
+    <!-- for aos  -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 150,
+            duration: 800,
+        });
+
+    </script>
+
+    <!-- corousel slider  -->
+    <script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/jquery.flipster.min.js"></script>
+    <script>
+        $('.carousel').flipster({
+            style: 'carousel',
+            spacing: -0.5,
+        });
+    </script>
+
+    <!-- for form  -->
+    <iframe name="hidden_iframe" id="hidden_iframe" onload="if(submitted){}"></iframe>
+    <!-- <script
+   src="https://code.jquery.com/jquery-3.6.0.min.js"></script>  -->
+   <script>
+       $('#gform').on('submit',function(e){
+            // console.log("hello");
+            let submitform=document.getElementById('submitform');
+            submitform.style.display='block';
+       });
+   </script>
+
+</body>
+
+</html>
